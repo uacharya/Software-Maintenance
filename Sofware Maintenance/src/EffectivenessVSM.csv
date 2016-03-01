@@ -1,0 +1,749 @@
+FeatureID	GoldSet MethodID Position	GoldSetMethodID	VSM GoldSetMethodID Rank - All Ranks	VSM GoldSetMethodID Rank - Best Rank
+950961	685	org.gjt.sp.jedit.buffer.BufferAdapter.preContentInserted(JEditBuffer,int,int,int,int)	477	18
+ 	705	org.gjt.sp.jedit.buffer.BufferChangeListener.Adapter.preContentInserted(JEditBuffer,int,int,int,int)	478	
+ 	2965	org.gjt.sp.jedit.buffer.JEditBuffer.fireFoldLevelChanged(int,int)	127	
+ 	2966	org.gjt.sp.jedit.buffer.JEditBuffer.fireContentInserted(int,int,int,int)	1010	
+ 	2967	org.gjt.sp.jedit.buffer.JEditBuffer.fireContentRemoved(int,int,int,int)	995	
+ 	2968	org.gjt.sp.jedit.buffer.JEditBuffer.firePreContentInserted(int,int,int,int)	1018	
+ 	2969	org.gjt.sp.jedit.buffer.JEditBuffer.firePreContentRemoved(int,int,int,int)	1001	
+ 	2974	org.gjt.sp.jedit.buffer.JEditBuffer.fireTransactionComplete()	2376	
+ 	2975	org.gjt.sp.jedit.buffer.JEditBuffer.fireFoldHandlerChanged()	129	
+ 	2976	org.gjt.sp.jedit.buffer.JEditBuffer.fireBufferLoaded()	3595	
+ 	2979	org.gjt.sp.jedit.buffer.JEditBuffer.loadText(Segment,IntegerArray)	984	
+ 	2985	org.gjt.sp.jedit.buffer.JEditBuffer.contentInserted(int,int,IntegerArray)	689	
+ 	716	org.gjt.sp.jedit.textarea.BufferHandler.contentInserted(JEditBuffer,int,int,int,int)	143	
+ 	717	org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)	109	
+ 	718	org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)	110	
+ 	723	org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)	18	
+ 	719	org.gjt.sp.jedit.textarea.BufferHandler.contentRemoved(JEditBuffer,int,int,int,int)	149	
+ 	4501	org.gjt.sp.jedit.textarea.RangeMap.RangeMap(RangeMap)	5916	
+ 	4507	org.gjt.sp.jedit.textarea.RangeMap.put(int,int,int[])	988	
+ 	4514	org.gjt.sp.jedit.textarea.RangeMap.dump()	388	
+981012	904	org.gjt.sp.jedit.syntax.Chunk.init(Segment,TabExpander,float,FontRenderContext)	682	682
+1193683	717	org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)	215	63
+ 	718	org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)	283	
+ 	723	org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)	63	
+1292706	2043	org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,String)	1557	420
+ 	2049	org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,String)	420	
+1382388	3511	org.gjt.sp.jedit.Mode.Mode(String)	5178	329
+ 	3520	org.gjt.sp.jedit.Mode.setProperties(Map)	2465	
+ 	3526	org.gjt.sp.jedit.Mode.getIgnoreWhitespace()	5184	
+ 	3529	org.gjt.sp.jedit.Mode.initIndentRules()	1074	
+ 	2887	org.gjt.sp.jedit.buffer.JEditBuffer.getPriorNonEmptyLine(int)	870	
+ 	2911	org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char)	1999	
+ 	2415	org.gjt.sp.jedit.indent.IndentAction.NoIncrease.calculateIndent(JEditBuffer,int,int,int)	329	
+ 	2416	org.gjt.sp.jedit.indent.IndentAction.NoIncrease.keepChecking()	4799	
+ 	6072	org.gjt.sp.jedit.indent.WhitespaceRule.apply(JEditBuffer,int,int,int,List<IndentAction>)	821	
+1500938	4767	org.gjt.sp.jedit.search.SearchDialog.showSearchDialog(View,String,int)	20	5
+ 	4768	org.gjt.sp.jedit.search.SearchDialog.setSearchString(String,int)	5	
+1520769	204	org.gjt.sp.jedit.Autosave.actionPerformed(ActionEvent)	31	10
+ 	620	org.gjt.sp.jedit.Buffer.removeAutosaveFile()	43	
+ 	4688	org.gjt.sp.jedit.options.SaveBackupOptionPane._init()	13	
+ 	4689	org.gjt.sp.jedit.options.SaveBackupOptionPane._save()	10	
+1520774	3506	org.gjt.sp.jedit.MiscUtilities.getPathStart(String)	358	358
+1533473	1555	org.gjt.sp.jedit.EditPane.saveCaretInfo()	376	181
+ 	1556	org.gjt.sp.jedit.EditPane.loadCaretInfo()	181	
+1536064	2054	org.gjt.sp.jedit.GUIUtilities.requestFocus(Window,Component)	370	370
+1538051	2776	org.gjt.sp.jedit.jEdit.showMemoryDialog(View)	2	2
+ 	5012	org.gjt.sp.jedit.gui.StatusBar.propertiesChanged()	1805	
+ 	5015	org.gjt.sp.jedit.gui.StatusBar.statusUpdate(WorkThreadPool,int)	978	
+ 	5021	org.gjt.sp.jedit.gui.StatusBar.updateBufferStatus()	5716	
+ 	-1	org.gjt.sp.jedit.gui.StatusBar.MemoryStatus.getToolTipText()		
+ 	-1	org.gjt.sp.jedit.gui.StatusBar.MemoryStatus.paintComponent(Graphics)		
+1538702	2042	org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,Container,String)	871	1
+ 	2043	org.gjt.sp.jedit.GUIUtilities.loadGeometry(Window,String)	991	
+ 	2049	org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,String)	1170	
+ 	2050	org.gjt.sp.jedit.GUIUtilities.saveGeometry(Window,Container,String)	1019	
+ 	-1	org.gjt.sp.jedit.GUIUtilities.addSizeSaver(Window,String)		
+ 	-1	org.gjt.sp.jedit.GUIUtilities.addSizeSaver(Window,Container,String)		
+ 	-1	org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Window,String)		
+ 	-1	org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Window,Container,String)		
+ 	2077	org.gjt.sp.jedit.GUIUtilities.SizeSaver.windowStateChanged(WindowEvent)	1152	
+ 	2080	org.gjt.sp.jedit.GUIUtilities.SizeSaver.componentMoved(ComponentEvent)	4040	
+ 	-1	org.gjt.sp.jedit.PluginJAR.load(boolean)		
+ 	4266	org.gjt.sp.jedit.PluginJAR.load(String,boolean)	89	
+ 	4268	org.gjt.sp.jedit.PluginJAR.findPlugin(String)	140	
+ 	4269	org.gjt.sp.jedit.PluginJAR.containsClass(String)	5326	
+ 	-1	org.gjt.sp.jedit.PluginJAR.jarCompare(String,String)		
+ 	-1	org.gjt.sp.jedit.PluginJAR.loadDependencies(String)		
+ 	4278	org.gjt.sp.jedit.PluginJAR.checkDependencies()	3	
+ 	-1	org.gjt.sp.jedit.PluginJAR.transitiveClosure(Set<String>,Set<String>)		
+ 	4281	org.gjt.sp.jedit.PluginJAR.transitiveClosure(String[],List<String>)	59	
+ 	4282	org.gjt.sp.jedit.PluginJAR.getDependentPlugins()	127	
+ 	4285	org.gjt.sp.jedit.PluginJAR.activatePluginIfNecessary()	1	
+ 	4293	org.gjt.sp.jedit.PluginJAR.init()	143	
+ 	6027	org.gjt.sp.jedit.View.View(Buffer,ViewConfig)	419	
+ 	1694	org.gjt.sp.jedit.gui.ErrorListDialog.ActionHandler.actionPerformed(ActionEvent)	63	
+ 	-1	org.gjt.sp.jedit.gui.FloatingWindowContainer.register(DockableWindowManager.Entry)		
+ 	2707	org.gjt.sp.jedit.jEdit.getPlugin(String,boolean)	9	
+ 	2711	org.gjt.sp.jedit.jEdit.addPluginJAR(String)	41	
+ 	3328	org.gjt.sp.jedit.pluginmgr.ManagePanel.ManagePanel(PluginManager)	297	
+ 	-1	org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.toggleCurrentRow()		
+ 	3344	org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.setValueAt(Object,int,int)	259	
+ 	3348	org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.unloadPluginJARWithDialog(PluginJAR)	51	
+ 	3349	org.gjt.sp.jedit.pluginmgr.ManagePanel.PluginTableModel.unloadPluginJAR(PluginJAR)	31	
+ 	3368	org.gjt.sp.jedit.pluginmgr.ManagePanel.HelpButton.valueChanged(ListSelectionEvent)	291	
+ 	-1	org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyTyped(KeyEvent)		
+ 	-1	org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyPressed(KeyEvent)		
+ 	-1	org.gjt.sp.jedit.pluginmgr.ManagePanel.KeyHandler.keyReleased(KeyEvent)		
+ 	4352	org.gjt.sp.jedit.pluginmgr.PluginManager.showPluginManager(Frame)	97	
+ 	4356	org.gjt.sp.jedit.pluginmgr.PluginManager.PluginManager(Frame)	50	
+ 	-1	org.gjt.sp.jedit.pluginmgr.PluginManager.PluginManager()		
+ 	4357	org.gjt.sp.jedit.pluginmgr.PluginManager.init()	74	
+ 	4679	org.gjt.sp.jedit.pluginmgr.Roster.Remove.unloadPluginJAR(PluginJAR)	110	
+1538743	5590	org.gjt.sp.jedit.options.ToolBarEditDialog.ToolBarEditDialog(Component,DefaultComboBoxModel,ToolBarOptionPane.Button)	93	17
+ 	5595	org.gjt.sp.jedit.options.ToolBarEditDialog.updateList()	17	
+1541009	2324	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)	81	22
+ 	4248	org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)	271	
+ 	-1	org.gjt.sp.jedit.search.PatternSearchMatcher.isMatchingEOL()		
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	129	
+ 	4733	org.gjt.sp.jedit.search.SearchAndReplace.replace(View)	22	
+ 	4744	org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)	53	
+ 	-1	org.gjt.sp.jedit.search.SearchAndReplace._replace(View,Buffer,SearchMatcher,int,int,boolean)		
+ 	-1	org.gjt.sp.jedit.search.SearchAndReplace.replaceOne(View,Buffer,SearchMatcher.Match,int,String,boolean)		
+ 	-1	org.gjt.sp.jedit.search.SearchMatcher.isMatchingEOL()		
+1541372	2130	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)	63	63
+ 	-1	org.gjt.sp.jedit.textarea.JEditTextArea.getSelectedText(Selection)		
+ 	-1	org.gjt.sp.jedit.textarea.JEditTextArea.collapseFold()		
+ 	-1	org.gjt.sp.jedit.textarea.JEditTextArea.collapseFold(int)		
+1542026	2825	org.gjt.sp.jedit.jEdit.MyFocusManager.postProcessKeyEvent(KeyEvent)	3275	3275
+1546200	4525	org.gjt.sp.jedit.menu.RecentFilesProvider.update(JMenu)	1	1
+1548902	-1	org.gjt.sp.jedit.TextUtilities.join(Collection,String)		653
+ 	5500	org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean)	4142	
+ 	5506	org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean)	4143	
+ 	5509	org.gjt.sp.jedit.TextUtilities.getCharType(char,String)	3571	
+ 	5510	org.gjt.sp.jedit.TextUtilities.spacesToTabs(String,int)	3564	
+ 	5511	org.gjt.sp.jedit.TextUtilities.tabsToSpaces(String,int)	4109	
+ 	5512	org.gjt.sp.jedit.TextUtilities.format(String,int,int)	724	
+ 	5517	org.gjt.sp.jedit.TextUtilities.formatParagraph(String,int,int,StringBuilder)	2402	
+ 	3022	org.gjt.sp.jedit.textarea.JEditTextArea.formatParagraph()	653	
+1549282	605	org.gjt.sp.jedit.Buffer.insertFile(View,String)	594	90
+ 	609	org.gjt.sp.jedit.Buffer.save(View,String,boolean)	256	
+ 	638	org.gjt.sp.jedit.Buffer.getDefaultProperty(String)	2860	
+ 	681	org.gjt.sp.jedit.Buffer.finishSaving(View,String,String,String,boolean,boolean)	90	
+1560006	4767	org.gjt.sp.jedit.search.SearchDialog.showSearchDialog(View,String,int)	1	1
+1560584	5354	org.gjt.sp.jedit.textarea.TextArea.addExplicitFold(int,int,int,int)	559	559
+1565447	2302	org.gjt.sp.jedit.search.HyperSearchFileNode.goTo(EditPane)	2858	20
+ 	2305	org.gjt.sp.jedit.search.HyperSearchFileNode.getCount()	193	
+ 	2306	org.gjt.sp.jedit.search.HyperSearchFileNode.setCount(int)	149	
+ 	2320	org.gjt.sp.jedit.search.HyperSearchRequest.HyperSearchRequest(View,SearchMatcher,HyperSearchResults,Selection[])	30	
+ 	2321	org.gjt.sp.jedit.search.HyperSearchRequest.run()	46	
+ 	2323	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int)	20	
+ 	2388	org.gjt.sp.jedit.search.HyperSearchResults.ResultCellRenderer.getTreeCellRendererComponent(JTree,Object,boolean,boolean,boolean,int,boolean)	64	
+ 	2389	org.gjt.sp.jedit.search.HyperSearchResults.ResultCellRenderer.CountNodes.processNode(DefaultMutableTreeNode)	77	
+1569735	6129	org.gjt.sp.jedit.syntax.XModeHandler.endElement(String,String,String)	88	88
+1570554	5775	org.gjt.sp.jedit.browser.VFSBrowser.setDirectory(String)	67	67
+ 	5804	org.gjt.sp.jedit.browser.VFSBrowser.ActionHandler.actionPerformed(ActionEvent)	1351	
+ 	5919	org.gjt.sp.jedit.browser.VFSFileChooserDialog.ok()	222	
+1571629	5755	org.gjt.sp.jedit.browser.VFSBrowser.VFSBrowser(View,String,int,boolean,String)	14	14
+ 	5802	org.gjt.sp.jedit.browser.VFSBrowser.updateFilterEnabled()	23	
+ 	5804	org.gjt.sp.jedit.browser.VFSBrowser.ActionHandler.actionPerformed(ActionEvent)	38	
+1571752	5260	org.gjt.sp.jedit.textarea.TextArea.userInput(char)	1237	88
+ 	5354	org.gjt.sp.jedit.textarea.TextArea.addExplicitFold(int,int,int,int)	88	
+1574587	-1	org.gjt.sp.jedit.buffer.JEditBuffer.getUndoManager()		1
+ 	2876	org.gjt.sp.jedit.buffer.JEditBuffer.setDirty(boolean)	18	
+ 	792	org.gjt.sp.jedit.bufferio.BufferSaveRequest.run()	83	
+ 	1527	org.gjt.sp.jedit.options.EditingOptionPane._init()	108	
+ 	1528	org.gjt.sp.jedit.options.EditingOptionPane._save()	1	
+ 	1964	org.gjt.sp.jedit.options.GeneralOptionPane._init()	416	
+ 	1965	org.gjt.sp.jedit.options.GeneralOptionPane._save()	555	
+ 	-1	org.gjt.sp.jedit.buffer.UndoManager.bufferSaved()		
+ 	5648	org.gjt.sp.jedit.buffer.UndoManager.resetClearDirty()	204	
+1575505	5304	org.gjt.sp.jedit.textarea.TextArea.joinLines()	712	712
+ 	-1	org.gjt.sp.jedit.textarea.TextArea.joinLines(Selection)		
+ 	5356	org.gjt.sp.jedit.textarea.TextArea.joinLineAt(int)	1897	
+1576535	1556	org.gjt.sp.jedit.EditPane.loadCaretInfo()	164	164
+1578785	4256	org.gjt.sp.jedit.PerspectiveManager.savePerspective(boolean)	469	2
+ 	4260	org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.attribute(String,String)	1349	
+ 	4262	org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.endElement(String,String,String)	133	
+ 	614	org.gjt.sp.jedit.Buffer.getAutoReload()	104	
+ 	615	org.gjt.sp.jedit.Buffer.setAutoReload(boolean)	121	
+ 	616	org.gjt.sp.jedit.Buffer.getAutoReloadDialog()	59	
+ 	617	org.gjt.sp.jedit.Buffer.setAutoReloadDialog(boolean)	69	
+ 	-1	org.gjt.sp.jedit.Buffer.Buffer(String,boolean,boolean,Hashtable)		
+ 	770	org.gjt.sp.jedit.gui.BufferOptions.BufferOptions(View,Buffer)	444	
+ 	771	org.gjt.sp.jedit.gui.BufferOptions.ok()	1489	
+ 	773	org.gjt.sp.jedit.gui.BufferOptions.ActionHandler.actionPerformed(ActionEvent)	4160	
+ 	2759	org.gjt.sp.jedit.jEdit.checkBufferStatus(View)	373	
+ 	766	org.gjt.sp.jedit.options.BufferOptionPane.BufferOptionPane()	2	
+ 	767	org.gjt.sp.jedit.options.BufferOptionPane._init()	63	
+ 	768	org.gjt.sp.jedit.options.BufferOptionPane._save()	78	
+ 	769	org.gjt.sp.jedit.options.BufferOptionPane.ActionHandler.actionPerformed(ActionEvent)	4158	
+ 	1964	org.gjt.sp.jedit.options.GeneralOptionPane._init()	124	
+ 	1965	org.gjt.sp.jedit.options.GeneralOptionPane._save()	100	
+1584436	-1	org.gjt.sp.jedit.textarea.Anchor.preContentRemoved(int,int)		
+1589360	5404	org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleClick(MouseEvent)	50	50
+ 	5409	org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doSingleDrag(MouseEvent)	311	
+1593359	2431	org.gjt.sp.jedit.gui.InputHandler.processKeyEvent(KeyEvent,int,boolean)	75	75
+1593375	1870	org.gjt.sp.jedit.gui.FilteredListModel.FilteredListModel(E)	279	23
+ 	1871	org.gjt.sp.jedit.gui.FilteredListModel.setList(JList)	1617	
+ 	1872	org.gjt.sp.jedit.gui.FilteredListModel.getDelegated()	2027	
+ 	1873	org.gjt.sp.jedit.gui.FilteredListModel.setDelegated(E)	3383	
+ 	1874	org.gjt.sp.jedit.gui.FilteredListModel.resetFilter()	37	
+ 	1875	org.gjt.sp.jedit.gui.FilteredListModel.setFilter(String)	126	
+ 	1876	org.gjt.sp.jedit.gui.FilteredListModel.prepareFilter(String)	24	
+ 	1877	org.gjt.sp.jedit.gui.FilteredListModel.saveSelection()	4651	
+ 	1878	org.gjt.sp.jedit.gui.FilteredListModel.restoreSelection(Set<Integer>)	4652	
+ 	1879	org.gjt.sp.jedit.gui.FilteredListModel.getTrueRow(int)	1167	
+ 	1880	org.gjt.sp.jedit.gui.FilteredListModel.getInternal2ExternalRow(int)	3837	
+ 	1881	org.gjt.sp.jedit.gui.FilteredListModel.getElementAt(int)	4653	
+ 	1882	org.gjt.sp.jedit.gui.FilteredListModel.getSize()	147	
+ 	1883	org.gjt.sp.jedit.gui.FilteredListModel.contentsChanged(ListDataEvent)	29	
+ 	1884	org.gjt.sp.jedit.gui.FilteredListModel.intervalAdded(ListDataEvent)	40	
+ 	1885	org.gjt.sp.jedit.gui.FilteredListModel.intervalRemoved(ListDataEvent)	34	
+ 	3255	org.gjt.sp.jedit.gui.LogViewer.LogViewer()	33	
+ 	3261	org.gjt.sp.jedit.gui.LogViewer.setFilter()	23	
+1593389	5779	org.gjt.sp.jedit.browser.VFSBrowser.delete(VFSFile[])	8	1
+ 	1847	org.gjt.sp.jedit.io.FileVFS.recursiveDelete(File)	1	
+ 	1861	org.gjt.sp.jedit.io.FileVFS._delete(Object,String,Component)	21	
+1593464	1803	org.gjt.sp.jedit.browser.FileCellRenderer.getIconForFile(VFSFile,boolean,boolean)	7	4
+ 	1804	org.gjt.sp.jedit.browser.FileCellRenderer.propertiesChanged()	16	
+ 	1841	org.gjt.sp.jedit.io.FileVFS.getParentOfPath(String)	1170	
+ 	1852	org.gjt.sp.jedit.io.FileVFS.LocalFile.getIcon(boolean,boolean)	5	
+ 	5882	org.gjt.sp.jedit.io.VFSFile.getIcon(boolean)	6	
+ 	5883	org.gjt.sp.jedit.io.VFSFile.getIcon(boolean,boolean)	9	
+ 	5884	org.gjt.sp.jedit.io.VFSFile.getDefaultIcon(boolean,boolean)	10	
+ 	5885	org.gjt.sp.jedit.io.VFSFile.getDefaultIcon(boolean)	4	
+ 	319	org.gjt.sp.jedit.options.BrowserOptionPane._init()	55	
+ 	320	org.gjt.sp.jedit.options.BrowserOptionPane._save()	129	
+1593523	2314	org.gjt.sp.jedit.search.HyperSearchOperationNode.restoreFlatNodes(JTree,DefaultMutableTreeNode)	50	50
+1593526	2355	org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()	108	108
+1593543	642	org.gjt.sp.jedit.Buffer.setMode()	1645	356
+ 	728	org.gjt.sp.jedit.BufferHistory.setEntry(String,int,Selection[],String,String)	2712	
+ 	732	org.gjt.sp.jedit.BufferHistory.save()	385	
+ 	725	org.gjt.sp.jedit.BufferHistory.Entry.Entry(String,int,String,String,String)	3999	
+ 	740	org.gjt.sp.jedit.BufferHistory.RecentHandler.endElement(String,String,String)	4005	
+ 	1555	org.gjt.sp.jedit.EditPane.saveCaretInfo()	1558	
+ 	2743	org.gjt.sp.jedit.jEdit._closeBuffer(View,Buffer)	447	
+ 	2745	org.gjt.sp.jedit.jEdit.closeAllBuffers(View,boolean)	356	
+ 	-1	org.gjt.sp.jedit.jEdit.composeBufferPropsFromHistory(Hashtable,String)		
+1593576	2903	org.gjt.sp.jedit.buffer.JEditBuffer.indentLine(int,boolean)	2	2
+ 	2906	org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int,int,int)	12	
+ 	2905	org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int)	20	
+ 	4997	org.gjt.sp.util.StandardUtilities.truncateWhiteSpace(int,int,String)	16	
+1593735	3709	org.gjt.sp.jedit.gui.OptionsDialog.valueChanged(TreeSelectionEvent)	57	13
+ 	3710	org.gjt.sp.jedit.gui.OptionsDialog.init(String,String)	13	
+ 	-1	org.gjt.sp.jedit.gui.OptionsDialog.selectPane(OptionGroup,String,List)		
+ 	3716	org.gjt.sp.jedit.gui.OptionsDialog.PaneNameRenderer.getTreeCellRendererComponent(JTree,Object,boolean,boolean,boolean,int,boolean)	199	
+1594234	3699	org.gjt.sp.jedit.OptionGroup.insertionSort(String,Object)	1303	15
+ 	4751	org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)	15	
+ 	4757	org.gjt.sp.jedit.search.SearchBar.incrementalSearch(int,boolean)	17	
+ 	4758	org.gjt.sp.jedit.search.SearchBar.timerIncrementalSearch(int,boolean)	79	
+1594910	637	org.gjt.sp.jedit.Buffer.propertiesChanged()	452	33
+ 	3527	org.gjt.sp.jedit.Mode.getIndentRules()	33	
+ 	3528	org.gjt.sp.jedit.Mode.isElectricKey(char)	362	
+ 	3529	org.gjt.sp.jedit.Mode.initIndentRules()	112	
+ 	3530	org.gjt.sp.jedit.Mode.createRegexpIndentRule(String)	76	
+ 	3531	org.gjt.sp.jedit.Mode.createBracketIndentRules(String,List<IndentRule>)	95	
+ 	2866	org.gjt.sp.jedit.buffer.JEditBuffer.JEditBuffer(Map)	3024	
+ 	2867	org.gjt.sp.jedit.buffer.JEditBuffer.JEditBuffer()	2552	
+ 	2905	org.gjt.sp.jedit.buffer.JEditBuffer.getIdealIndentForLine(int)	90	
+ 	2911	org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char)	155	
+ 	2912	org.gjt.sp.jedit.buffer.JEditBuffer.isElectricKey(char,int)	45	
+ 	2987	org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)	42	
+ 	3020	org.gjt.sp.jedit.textarea.JEditTextArea.userInput(char)	2730	
+1599024	4639	org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.updateEveryTime()	5918	1
+ 	4640	org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.update(JMenu)	5	
+ 	4641	org.gjt.sp.jedit.menu.ReloadWithEncodingProvider.actionPerformed(ActionEvent)	1	
+1599709	2987	org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)	1676	1676
+1600401	5548	org.gjt.sp.jedit.syntax.TokenMarker.handleRule(ParserRule,boolean)	2120	2120
+1601718	4724	org.gjt.sp.jedit.search.SearchAndReplace.getSearchMatcher()	103	90
+ 	4729	org.gjt.sp.jedit.search.SearchAndReplace.hyperSearch(View,boolean)	182	
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	299	
+ 	4733	org.gjt.sp.jedit.search.SearchAndReplace.replace(View)	130	
+ 	4735	org.gjt.sp.jedit.search.SearchAndReplace.replaceAll(View)	90	
+ 	4742	org.gjt.sp.jedit.search.SearchAndReplace.record(View,String,boolean,boolean)	115	
+1608486	1576	org.gjt.sp.jedit.EditPane.initPainter(TextAreaPainter)	670	6
+ 	5418	org.gjt.sp.jedit.options.TextAreaOptionPane._init()	131	
+ 	5419	org.gjt.sp.jedit.options.TextAreaOptionPane._save()	371	
+ 	5440	org.gjt.sp.jedit.textarea.TextAreaPainter.isThickCaretEnabled()	20	
+ 	5441	org.gjt.sp.jedit.textarea.TextAreaPainter.setThickCaretEnabled(boolean)	6	
+ 	5481	org.gjt.sp.jedit.textarea.TextAreaPainter.PaintCaret.paintValidLine(Graphics2D,int,int,int,int,int)	37	
+1608948	5825	org.gjt.sp.jedit.browser.VFSBrowser.HistoryComboBoxEditor.processFocusEvent(FocusEvent)	1	1
+1611766	2987	org.gjt.sp.jedit.buffer.JEditBuffer.getIndentRules(int)	1	1
+1617509	1975	org.gjt.sp.jedit.io.GlobVFSFileFilter.accept(VFSFile)	89	89
+ 	1979	org.gjt.sp.jedit.io.GlobVFSFileFilter.setGlob(String)	2764	
+1620694	722	org.gjt.sp.jedit.textarea.BufferHandler.delayUpdate(int,int)	3394	112
+ 	5109	org.gjt.sp.jedit.textarea.TextArea.TextArea(IPropertyManager,InputHandlerProvider)	112	
+ 	5128	org.gjt.sp.jedit.textarea.TextArea.setBuffer(JEditBuffer)	433	
+ 	5317	org.gjt.sp.jedit.textarea.TextArea.propertiesChanged()	2560	
+ 	5325	org.gjt.sp.jedit.textarea.TextArea.foldStructureChanged()	5860	
+ 	5333	org.gjt.sp.jedit.textarea.TextArea.finishCaretUpdate(int,int,boolean)	177	
+ 	5420	org.gjt.sp.jedit.textarea.TextAreaPainter.setBounds(int,int,int,int)	268	
+ 	5468	org.gjt.sp.jedit.textarea.TextAreaPainter.paint(Graphics)	1292	
+1628053	1547	org.gjt.sp.jedit.EditPane.setBuffer(Buffer,boolean)	47	47
+ 	853	org.gjt.sp.jedit.gui.BufferSwitcher.updateBufferList()	57	
+1630805	4137	org.gjt.sp.jedit.syntax.ParserRule.createSequenceRule(int,String,ParserRuleSet,byte)	5084	448
+ 	4139	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(String,int,String,ParserRuleSet,byte,boolean)	1113	
+ 	4140	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(int,char[],String,ParserRuleSet,byte,boolean)	1130	
+ 	4150	org.gjt.sp.jedit.syntax.ParserRule.createEscapeRule(String)	448	
+ 	4151	org.gjt.sp.jedit.syntax.ParserRule.toString()	992	
+ 	5546	org.gjt.sp.jedit.syntax.TokenMarker.markTokens(LineContext,TokenHandler,Segment)	522	
+ 	5547	org.gjt.sp.jedit.syntax.TokenMarker.checkDelegateEnd(ParserRule)	1256	
+1638642	2068	org.gjt.sp.jedit.GUIUtilities.initContinuousLayout(JSplitPane)	2	2
+ 	-1	org.gjt.sp.jedit.GUIUtilities.SizeSaver.SizeSaver(Frame,String)		
+ 	5995	org.gjt.sp.jedit.View.split(int)	5	
+ 	6037	org.gjt.sp.jedit.View.restoreSplitConfig(Buffer,String)	42	
+ 	6038	org.gjt.sp.jedit.View.propertiesChanged()	33	
+ 	321	org.gjt.sp.jedit.browser.BrowserView.BrowserView(VFSBrowser)	58	
+ 	332	org.gjt.sp.jedit.browser.BrowserView.propertiesChanged()	3	
+ 	341	org.gjt.sp.jedit.browser.BrowserView.TableMouseHandler.mouseClicked(MouseEvent)	3015	
+ 	3710	org.gjt.sp.jedit.gui.OptionsDialog.init(String,String)	23	
+ 	4620	org.gjt.sp.jedit.gui.RegisterViewer.RegisterViewer(View,String)	107	
+ 	4622	org.gjt.sp.jedit.gui.RegisterViewer.handleMessage(EBMessage)	85	
+ 	4627	org.gjt.sp.jedit.gui.RegisterViewer.refreshList()	2488	
+ 	2212	org.gjt.sp.jedit.help.HelpViewer.HelpViewer(String)	69	
+ 	2217	org.gjt.sp.jedit.help.HelpViewer.handleMessage(EBMessage)	970	
+ 	189	org.gjt.sp.jedit.options.AppearanceOptionPane._init()	90	
+ 	190	org.gjt.sp.jedit.options.AppearanceOptionPane._save()	108	
+ 	2456	org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)	233	
+ 	2460	org.gjt.sp.jedit.pluginmgr.InstallPanel.formatSize(int)	4212	
+1641997	1964	org.gjt.sp.jedit.options.GeneralOptionPane._init()	147	147
+1642574	1575	org.gjt.sp.jedit.EditPane.propertiesChanged()	652	82
+ 	6065	org.gjt.sp.jedit.options.ViewOptionPane._init()	82	
+ 	6066	org.gjt.sp.jedit.options.ViewOptionPane._save()	207	
+1645528	4261	org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.skipRemote(String)	283	283
+ 	4262	org.gjt.sp.jedit.PerspectiveManager.PerspectiveHandler.endElement(String,String,String)	426	
+ 	1964	org.gjt.sp.jedit.options.GeneralOptionPane._init()	341	
+ 	1965	org.gjt.sp.jedit.options.GeneralOptionPane._save()	465	
+1646058	2354	org.gjt.sp.jedit.search.HyperSearchResults.goToSelectedNode(int)	8	8
+ 	2355	org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()	22	
+ 	2365	org.gjt.sp.jedit.search.HyperSearchResults.KeyHandler.keyPressed(KeyEvent)	44	
+ 	2366	org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.mousePressed(MouseEvent)	96	
+ 	2369	org.gjt.sp.jedit.search.HyperSearchResults.RemoveTreeNodeAction.actionPerformed(ActionEvent)	83	
+1649033	2031	org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(View,String,int,boolean)	100	37
+ 	2032	org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(Dialog,View,String,int,boolean)	91	
+ 	5914	org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(View,String,int,boolean,boolean)	116	
+ 	5915	org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(Dialog,View,String,int,boolean,boolean)	111	
+ 	5922	org.gjt.sp.jedit.browser.VFSFileChooserDialog.getDefaultTitle()	6216	
+ 	5923	org.gjt.sp.jedit.browser.VFSFileChooserDialog._init(View,String,int,boolean,boolean)	164	
+ 	4788	org.gjt.sp.jedit.search.SearchDialog.MultiFileActionHandler.actionPerformed(ActionEvent)	37	
+1654543	5703	org.gjt.sp.jedit.gui.VariableGridLayout.getLayoutSize(Container,LayoutSize)	5914	5914
+1658252	4137	org.gjt.sp.jedit.syntax.ParserRule.createSequenceRule(int,String,ParserRuleSet,byte)	564	382
+ 	4139	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(String,int,String,ParserRuleSet,byte,boolean)	619	
+ 	4140	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSequenceRule(int,char[],String,ParserRuleSet,byte,boolean)	644	
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.createSpanRule(int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean)		
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(char,int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)		
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(String,int,String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)		
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.createRegexpSpanRule(int,char[],String,int,String,ParserRuleSet,byte,byte,boolean,boolean,boolean,boolean)		
+ 	4144	org.gjt.sp.jedit.syntax.ParserRule.createEOLSpanRule(int,String,ParserRuleSet,byte,byte)	429	
+ 	4145	org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(char,int,String,ParserRuleSet,byte,byte,boolean)	577	
+ 	4146	org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(String,int,String,ParserRuleSet,byte,byte,boolean)	473	
+ 	4147	org.gjt.sp.jedit.syntax.ParserRule.createRegexpEOLSpanRule(int,char[],String,ParserRuleSet,byte,byte,boolean)	481	
+ 	4148	org.gjt.sp.jedit.syntax.ParserRule.createMarkFollowingRule(int,String,byte,byte)	423	
+ 	4149	org.gjt.sp.jedit.syntax.ParserRule.createMarkPreviousRule(int,String,byte,byte)	414	
+ 	4150	org.gjt.sp.jedit.syntax.ParserRule.createEscapeRule(String)	1069	
+ 	4151	org.gjt.sp.jedit.syntax.ParserRule.toString()	611	
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.ParserRule(int,String,int,char[],Pattern,int,char[],ParserRuleSet,byte,byte)		
+ 	-1	org.gjt.sp.jedit.syntax.ParserRule.ParserRule(char[],int,int,char[],Pattern,int,char[],ParserRuleSet,byte,byte)		
+ 	5547	org.gjt.sp.jedit.syntax.TokenMarker.checkDelegateEnd(ParserRule)	962	
+ 	-1	org.gjt.sp.jedit.syntax.TokenMarker.handleRule(ParserRule,boolean,boolean)		
+ 	5553	org.gjt.sp.jedit.syntax.TokenMarker.matchToken(ParserRule,ParserRule,LineContext)	382	
+ 	6129	org.gjt.sp.jedit.syntax.XModeHandler.endElement(String,String,String)	1028	
+ 	6139	org.gjt.sp.jedit.syntax.XModeHandler.TagDecl.TagDecl(String,Attributes)	576	
+1659666	5494	org.gjt.sp.jedit.TextUtilities.getComplementaryBracket(char,boolean[])	847	553
+ 	5546	org.gjt.sp.jedit.syntax.TokenMarker.markTokens(LineContext,TokenHandler,Segment)	1164	
+ 	5552	org.gjt.sp.jedit.syntax.TokenMarker.substitute(Matcher,char[])	553	
+1663617	2731	org.gjt.sp.jedit.jEdit.openFile(View,String,String,boolean,Hashtable)	64	64
+1664900	2399	org.gjt.sp.jedit.indent.IndentAction.Collapse.Collapse()	5000	59
+ 	3667	org.gjt.sp.jedit.indent.OpenBracketIndentRule.apply(JEditBuffer,int,int,int,List<IndentAction>)	59	
+ 	3669	org.gjt.sp.jedit.indent.OpenBracketIndentRule.handleCollapse(List<IndentAction>,boolean)	91	
+ 	4580	org.gjt.sp.jedit.indent.RegexpIndentRule.apply(JEditBuffer,int,int,int,List<IndentAction>)	107	
+1668893	3462	org.gjt.sp.jedit.MiscUtilities.autodetect(InputStream,Buffer)	323	63
+ 	750	org.gjt.sp.jedit.bufferio.BufferIORequest.write(Buffer,OutputStream)	63	
+1671312	2324	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)	21	21
+ 	4248	org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)	47	
+ 	4724	org.gjt.sp.jedit.search.SearchAndReplace.getSearchMatcher()	442	
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	644	
+ 	4733	org.gjt.sp.jedit.search.SearchAndReplace.replace(View)	451	
+ 	4744	org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)	94	
+1676041	5500	org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean)	26	3
+ 	5501	org.gjt.sp.jedit.TextUtilities.findWordStart(String,int,String,boolean,boolean,boolean)	3	
+ 	5506	org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean)	27	
+ 	5507	org.gjt.sp.jedit.TextUtilities.findWordEnd(String,int,String,boolean,boolean,boolean)	4	
+ 	1527	org.gjt.sp.jedit.options.EditingOptionPane._init()	53	
+ 	1528	org.gjt.sp.jedit.options.EditingOptionPane._save()	968	
+ 	1529	org.gjt.sp.jedit.options.EditingOptionPane.saveMode()	94	
+ 	1530	org.gjt.sp.jedit.options.EditingOptionPane.selectMode()	85	
+ 	1531	org.gjt.sp.jedit.options.EditingOptionPane.updateEnabled()	159	
+ 	1535	org.gjt.sp.jedit.options.EditingOptionPane.ModeProperties.load()	65	
+ 	1536	org.gjt.sp.jedit.options.EditingOptionPane.ModeProperties.save()	214	
+ 	5185	org.gjt.sp.jedit.textarea.TextArea.selectWord()	16	
+ 	5238	org.gjt.sp.jedit.textarea.TextArea.goToNextWord(boolean,boolean)	8	
+ 	5245	org.gjt.sp.jedit.textarea.TextArea.goToPrevWord(boolean,boolean)	11	
+ 	5266	org.gjt.sp.jedit.textarea.TextArea.backspaceWord(boolean)	10	
+ 	5273	org.gjt.sp.jedit.textarea.TextArea.deleteWord(boolean)	9	
+ 	5405	org.gjt.sp.jedit.textarea.TextAreaMouseHandler.doDoubleClick()	41	
+1687264	2355	org.gjt.sp.jedit.search.HyperSearchResults.removeSelectedNode()	138	138
+1694133	345	org.gjt.sp.jedit.browser.BrowserView.ParentDirectoryList.processKeyEvent(KeyEvent)	330	191
+ 	5773	org.gjt.sp.jedit.browser.VFSBrowser.previousDirectory()	988	
+ 	5774	org.gjt.sp.jedit.browser.VFSBrowser.nextDirectory()	432	
+ 	5775	org.gjt.sp.jedit.browser.VFSBrowser.setDirectory(String)	308	
+ 	5841	org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.processKeyEvent(KeyEvent)	191	
+ 	5934	org.gjt.sp.jedit.browser.VFSFileNameField.processKeyEvent(KeyEvent)	276	
+1708876	3446	org.gjt.sp.jedit.MiscUtilities.getFileExtension(String)	404	404
+1708881	5853	org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.MouseHandler.mousePressed(MouseEvent)	24	24
+1723506	3040	org.gjt.sp.jedit.textarea.JEditTextArea.showPopupMenu()	327	327
+1724940	716	org.gjt.sp.jedit.textarea.BufferHandler.contentInserted(JEditBuffer,int,int,int,int)	286	97
+ 	719	org.gjt.sp.jedit.textarea.BufferHandler.contentRemoved(JEditBuffer,int,int,int,int)	97	
+1730845	1573	org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)	36	7
+ 	1575	org.gjt.sp.jedit.EditPane.propertiesChanged()	9	
+ 	2135	org.gjt.sp.jedit.options.GutterOptionPane._init()	18	
+ 	2136	org.gjt.sp.jedit.options.GutterOptionPane._save()	7	
+ 	2139	org.gjt.sp.jedit.options.GutterOptionPane.isGutterEnabled()	74	
+ 	2082	org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)	170	
+ 	2091	org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)	548	
+ 	2098	org.gjt.sp.jedit.textarea.Gutter.setFont(Font)	646	
+ 	2099	org.gjt.sp.jedit.textarea.Gutter.setGutterEnabled(boolean)	534	
+ 	2110	org.gjt.sp.jedit.textarea.Gutter.getPreferredSize()	538	
+ 	2125	org.gjt.sp.jedit.textarea.Gutter.setSelectionPopupHandler(GutterPopupHandler)	443	
+ 	2127	org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)	137	
+ 	2130	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)	67	
+ 	2131	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseDragged(MouseEvent)	152	
+ 	2132	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.getFoldEndOffset(int)	45	
+ 	2133	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseReleased(MouseEvent)	544	
+1739675	6072	org.gjt.sp.jedit.indent.WhitespaceRule.apply(JEditBuffer,int,int,int,List<IndentAction>)	6192	6192
+1744674	2301	org.gjt.sp.jedit.search.HyperSearchFileNode.getBuffer(View)	3	1
+ 	2302	org.gjt.sp.jedit.search.HyperSearchFileNode.goTo(EditPane)	71	
+ 	2325	org.gjt.sp.jedit.search.HyperSearchResult.getBuffer(View)	1	
+ 	2327	org.gjt.sp.jedit.search.HyperSearchResult.goTo(EditPane)	356	
+ 	2351	org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode)	413	
+ 	2354	org.gjt.sp.jedit.search.HyperSearchResults.goToSelectedNode(int)	76	
+1747300	1575	org.gjt.sp.jedit.EditPane.propertiesChanged()	180	48
+ 	2135	org.gjt.sp.jedit.options.GutterOptionPane._init()	178	
+ 	2136	org.gjt.sp.jedit.options.GutterOptionPane._save()	130	
+ 	2138	org.gjt.sp.jedit.options.GutterOptionPane.addFoldStyleChooser()	48	
+ 	-1	org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)		
+ 	-1	org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)		
+ 	-1	org.gjt.sp.jedit.textarea.CircleFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)		
+ 	-1	org.gjt.sp.jedit.textarea.Gutter.getFoldPainterName()		
+ 	-1	org.gjt.sp.jedit.textarea.Gutter.setFoldPainter(String)		
+ 	2082	org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)	105	
+ 	2127	org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)	179	
+ 	-1	org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)		
+ 	-1	org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)		
+ 	-1	org.gjt.sp.jedit.textarea.SquareFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)		
+ 	5598	org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldStart(Gutter,Graphics2D,int,int,boolean,int,int,JEditBuffer)	772	
+ 	5599	org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldEnd(Gutter,Graphics2D,int,int,int,int,JEditBuffer)	182	
+ 	5600	org.gjt.sp.jedit.textarea.TriangleFoldPainter.paintFoldMiddle(Gutter,Graphics2D,int,int,int,int,JEditBuffer)	113	
+1748509	2033	org.gjt.sp.jedit.GUIUtilities.showVFSFileDialog(Frame,View,String,int,boolean)	267	14
+ 	5916	org.gjt.sp.jedit.browser.VFSFileChooserDialog.VFSFileChooserDialog(Frame,View,String,int,boolean,boolean)	865	
+ 	2456	org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)	530	
+ 	2457	org.gjt.sp.jedit.pluginmgr.InstallPanel.loadPluginSet(String)	14	
+ 	2476	org.gjt.sp.jedit.pluginmgr.InstallPanel.PluginTableModel.restoreSelection(Set<String>,Set<String>)	403	
+ 	2488	org.gjt.sp.jedit.pluginmgr.InstallPanel.StringMapHandler.StringMapHandler()	440	
+ 	2489	org.gjt.sp.jedit.pluginmgr.InstallPanel.StringMapHandler.startElement(String,String,String,Attributes)	694	
+ 	2490	org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.ChoosePluginSet()	57	
+ 	2491	org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.updateUI()	886	
+ 	2492	org.gjt.sp.jedit.pluginmgr.InstallPanel.ChoosePluginSet.actionPerformed(ActionEvent)	16	
+ 	2493	org.gjt.sp.jedit.pluginmgr.InstallPanel.ClearPluginSet.ClearPluginSet()	52	
+ 	2494	org.gjt.sp.jedit.pluginmgr.InstallPanel.ClearPluginSet.actionPerformed(ActionEvent)	270	
+ 	3328	org.gjt.sp.jedit.pluginmgr.ManagePanel.ManagePanel(PluginManager)	508	
+ 	3358	org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.SaveButton()	38	
+ 	-1	org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.saveState(String,StringList)		
+ 	3360	org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.actionPerformed(ActionEvent)	75	
+1749475	4914	org.gjt.sp.jedit.options.ShortcutsOptionPane._init()	1	1
+ 	4916	org.gjt.sp.jedit.options.ShortcutsOptionPane.setFilter()	5	
+ 	4917	org.gjt.sp.jedit.options.ShortcutsOptionPane.initModels()	20	
+ 	4922	org.gjt.sp.jedit.options.ShortcutsOptionPane.TableMouseHandler.mouseClicked(MouseEvent)	81	
+ 	-1	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.ShortcutsModel(String,Vector<GrabKeyDialog.KeyBinding[]>)		
+ 	-1	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.resetFilter()		
+ 	-1	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.setFilter(String)		
+ 	4925	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getBindings()	5585	
+ 	4928	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getRowCount()	5588	
+ 	4929	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getValueAt(int,int)	508	
+ 	4930	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.setValueAt(Object,int,int)	129	
+ 	-1	org.gjt.sp.jedit.options.ShortcutsOptionPane.ShortcutsModel.getFilteredBindingAt(int,int)		
+1768638	608	org.gjt.sp.jedit.Buffer.save(View,String)	265	3
+ 	609	org.gjt.sp.jedit.Buffer.save(View,String,boolean)	241	
+ 	610	org.gjt.sp.jedit.Buffer.save(View,String,boolean,boolean)	30	
+ 	1622	org.gjt.sp.jedit.EditServer.handleClient(boolean,boolean,boolean,String,String[])	62	
+ 	6005	org.gjt.sp.jedit.View.setBuffer(Buffer)	19	
+ 	6006	org.gjt.sp.jedit.View.setBuffer(Buffer,boolean)	3	
+ 	6008	org.gjt.sp.jedit.View.goToBuffer(Buffer)	21	
+ 	6054	org.gjt.sp.jedit.View.WindowHandler.windowActivated(WindowEvent)	10	
+ 	1056	org.gjt.sp.jedit.gui.CloseDialog.ActionHandler.actionPerformed(ActionEvent)	77	
+ 	2688	org.gjt.sp.jedit.jEdit.getIntegerProperty(String)	1537	
+ 	2727	org.gjt.sp.jedit.jEdit.openFiles(View,String,String[])	333	
+ 	2731	org.gjt.sp.jedit.jEdit.openFile(View,String,String,boolean,Hashtable)	50	
+ 	2747	org.gjt.sp.jedit.jEdit.saveAllBuffers(View,boolean)	8	
+ 	2759	org.gjt.sp.jedit.jEdit.checkBufferStatus(View)	93	
+ 	2760	org.gjt.sp.jedit.jEdit.checkBufferStatus(View,boolean)	4	
+ 	-1	org.gjt.sp.jedit.jEdit.finishStartup(boolean,boolean,String,String[])		
+ 	1964	org.gjt.sp.jedit.options.GeneralOptionPane._init()	60	
+ 	1965	org.gjt.sp.jedit.options.GeneralOptionPane._save()	252	
+ 	4732	org.gjt.sp.jedit.search.SearchAndReplace.find(View,Buffer,int,boolean,boolean)	474	
+1781853	2456	org.gjt.sp.jedit.pluginmgr.InstallPanel.InstallPanel(PluginManager,boolean)	11	11
+ 	2471	org.gjt.sp.jedit.pluginmgr.InstallPanel.PluginTableModel.sort(int)	472	
+ 	2498	org.gjt.sp.jedit.pluginmgr.InstallPanel.EntryCompare.EntryCompare(int,int)	3681	
+ 	-1	org.gjt.sp.jedit.pluginmgr.InstallPanel.EntryCompare.compare(Object,Object)		
+ 	2500	org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderMouseHandler.mouseClicked(MouseEvent)	13	
+ 	2506	org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderRenderer.HeaderRenderer(DefaultTableCellRenderer)	906	
+ 	2507	org.gjt.sp.jedit.pluginmgr.InstallPanel.HeaderRenderer.getTableCellRendererComponent(JTable,Object,boolean,boolean,int,int)	76	
+1788847	682	org.gjt.sp.jedit.Buffer.editSyntaxStyle(JEditTextArea)	1	1
+ 	5062	org.gjt.sp.jedit.gui.StyleEditor.StyleEditor(JDialog,SyntaxStyle,String)	8	
+ 	5063	org.gjt.sp.jedit.gui.StyleEditor.StyleEditor(JFrame,SyntaxStyle,String)	10	
+ 	5064	org.gjt.sp.jedit.gui.StyleEditor.initialize(Component,SyntaxStyle,String)	100	
+ 	5065	org.gjt.sp.jedit.gui.StyleEditor.actionPerformed(ActionEvent)	836	
+ 	5066	org.gjt.sp.jedit.gui.StyleEditor.ok()	3474	
+ 	5067	org.gjt.sp.jedit.gui.StyleEditor.cancel()	6197	
+ 	5068	org.gjt.sp.jedit.gui.StyleEditor.getStyle()	96	
+ 	5074	org.gjt.sp.jedit.options.SyntaxHiliteOptionPane.MouseHandler.mouseClicked(MouseEvent)	2	
+1789707	1632	org.gjt.sp.jedit.io.EncodingServer.hasEncoding(String)	10	1
+ 	6120	org.gjt.sp.jedit.io.XMLEncodingDetector.getXMLEncoding(String)	1	
+1818140	2265	org.gjt.sp.jedit.gui.HistoryText.showPopupMenu(String,int,int)	205	40
+ 	3229	org.gjt.sp.jedit.gui.ListModelEditor.open(DefaultListModel)	97	
+ 	3230	org.gjt.sp.jedit.gui.ListModelEditor.createTableModel(DefaultListModel)	60	
+ 	3231	org.gjt.sp.jedit.gui.ListModelEditor.updatelistModel(DefaultListModel,DefaultTableModel)	40	
+1825720	692	org.gjt.sp.jedit.bufferio.BufferAutosaveRequest.run()	149	149
+1834620	4748	org.gjt.sp.jedit.search.SearchAndReplace.regexpReplace(SearchMatcher.Match,String)	56	56
+1854542	631	org.gjt.sp.jedit.Buffer.setDirty(boolean)	2132	39
+ 	5755	org.gjt.sp.jedit.browser.VFSBrowser.VFSBrowser(View,String,int,boolean,String)	39	
+1866836	1125	org.gjt.sp.jedit.gui.CompleteWord.completeWord(View)	109	75
+ 	1140	org.gjt.sp.jedit.gui.CompleteWord.Words.complete(int)	75	
+1869978	2816	org.gjt.sp.jedit.jEdit.addBufferToList(Buffer)	114	114
+1883809	5219	org.gjt.sp.jedit.textarea.TextArea.centerCaret()	27	27
+1887293	6040	org.gjt.sp.jedit.View.loadToolBars()	4	4
+ 	4751	org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)	37	
+ 	4755	org.gjt.sp.jedit.search.SearchBar.propertiesChanged()	56	
+ 	4756	org.gjt.sp.jedit.search.SearchBar.find(boolean)	8	
+ 	4759	org.gjt.sp.jedit.search.SearchBar.setCloseButtonVisibility()	228	
+ 	4764	org.gjt.sp.jedit.search.SearchBar.KeyHandler.keyPressed(KeyEvent)	68	
+1894235	6040	org.gjt.sp.jedit.View.loadToolBars()	4	4
+ 	4751	org.gjt.sp.jedit.search.SearchBar.SearchBar(View,boolean)	36	
+ 	4755	org.gjt.sp.jedit.search.SearchBar.propertiesChanged()	10	
+ 	4756	org.gjt.sp.jedit.search.SearchBar.find(boolean)	7	
+ 	4759	org.gjt.sp.jedit.search.SearchBar.setCloseButtonVisibility()	205	
+ 	4764	org.gjt.sp.jedit.search.SearchBar.KeyHandler.keyPressed(KeyEvent)	97	
+1906288	169	org.gjt.sp.jedit.textarea.Anchor.preContentRemoved(int,int,int)	50	50
+1910061	5219	org.gjt.sp.jedit.textarea.TextArea.centerCaret()	1	1
+ 	-1	org.gjt.sp.jedit.textarea.TextArea.scrollToCurrent()		
+1912735	4837	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.getWidget(View)	795	62
+ 	4838	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLengthWidget(View)	62	
+ 	4839	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.getComponent()	388	
+ 	4840	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.update()	5820	
+ 	4841	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.propertiesChanged()	5821	
+ 	4842	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.handleMessage(EBMessage)	330	
+ 	4843	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.addNotify()	1056	
+ 	4844	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.removeNotify()	1130	
+ 	4845	org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory.SelectionLengthWidget.SelectionLength.caretUpdate(CaretEvent)	75	
+1913979	4768	org.gjt.sp.jedit.search.SearchDialog.setSearchString(String,int)	565	565
+1923613	4248	org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)	7	2
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	56	
+ 	4732	org.gjt.sp.jedit.search.SearchAndReplace.find(View,Buffer,int,boolean,boolean)	13	
+ 	4756	org.gjt.sp.jedit.search.SearchBar.find(boolean)	2	
+ 	4780	org.gjt.sp.jedit.search.SearchDialog.updateEnabled()	16	
+1931333	1145	org.gjt.sp.jedit.gui.CompleteWord.keyTyped(KeyEvent)	119	119
+1936518	305	org.gjt.sp.jedit.browser.BrowserCommandsMenu.BrowserCommandsMenu(VFSBrowser,VFSFile[])	20	20
+ 	5781	org.gjt.sp.jedit.browser.VFSBrowser.rename(String,String)	1399	
+ 	-1	org.gjt.sp.jedit.browser.VFSBrowser.fileProperties()		
+ 	-1	org.gjt.sp.jedit.gui.FilePropertiesDialog.FilePropertiesDialog(View,VFSBrowser)		
+ 	1821	org.gjt.sp.jedit.gui.FilePropertiesDialog.createAndShowGUI()	2481	
+ 	1812	org.gjt.sp.jedit.gui.FilePropertiesDialog.addComponentsToPane()	1250	
+ 	1813	org.gjt.sp.jedit.gui.FilePropertiesDialog.createNorthPanelAll()	189	
+ 	1814	org.gjt.sp.jedit.gui.FilePropertiesDialog.createCenterPanelAll()	40	
+ 	1815	org.gjt.sp.jedit.gui.FilePropertiesDialog.createSouthPanelAll()	1752	
+ 	1816	org.gjt.sp.jedit.gui.FilePropertiesDialog.createNorthPanel()	2045	
+ 	1817	org.gjt.sp.jedit.gui.FilePropertiesDialog.createCenterPanel()	321	
+ 	1818	org.gjt.sp.jedit.gui.FilePropertiesDialog.createSouthPanel()	1753	
+ 	1819	org.gjt.sp.jedit.gui.FilePropertiesDialog.ok()	408	
+ 	1820	org.gjt.sp.jedit.gui.FilePropertiesDialog.cancel()	4103	
+ 	1822	org.gjt.sp.jedit.gui.FilePropertiesDialog.ButtonActionHandler.actionPerformed(ActionEvent)	4104	
+1938174	1875	org.gjt.sp.jedit.gui.FilteredListModel.setFilter(String)	24	24
+1942313	1262	org.gjt.sp.jedit.textarea.DisplayManager.expandFold(int,boolean)	12	12
+1947676	2321	org.gjt.sp.jedit.search.HyperSearchRequest.run()	19	8
+ 	2347	org.gjt.sp.jedit.search.HyperSearchResults.searchStarted()	8	
+ 	2349	org.gjt.sp.jedit.search.HyperSearchResults.searchFailed()	59	
+ 	2350	org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode,DefaultMutableTreeNode)	61	
+1961989	5576	org.gjt.sp.jedit.options.ToolBarOptionPane._init()	98	42
+ 	5579	org.gjt.sp.jedit.options.ToolBarOptionPane.reloadButtonList(String)	183	
+ 	5588	org.gjt.sp.jedit.options.ToolBarOptionPane.ActionHandler.actionPerformed(ActionEvent)	142	
+ 	65	org.gjt.sp.jedit.gui.AbstractContextOptionPane._init()	42	
+ 	70	org.gjt.sp.jedit.gui.AbstractContextOptionPane.reloadContextList(String)	56	
+ 	73	org.gjt.sp.jedit.gui.AbstractContextOptionPane.ActionHandler.actionPerformed(ActionEvent)	95	
+1965114	5834	org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.getSelectedFiles()	143	143
+ 	5841	org.gjt.sp.jedit.browser.VFSDirectoryEntryTable.processKeyEvent(KeyEvent)	173	
+1984000	805	org.gjt.sp.jedit.bufferset.BufferSet.addBufferAt(Buffer,int)	30	30
+1984974	6038	org.gjt.sp.jedit.View.propertiesChanged()	23	23
+ 	5027	org.gjt.sp.jedit.options.StatusBarOptionPane._init()	77	
+ 	5028	org.gjt.sp.jedit.options.StatusBarOptionPane._save()	76	
+1999448	717	org.gjt.sp.jedit.textarea.BufferHandler.preContentInserted(JEditBuffer,int,int,int,int)	120	1
+ 	718	org.gjt.sp.jedit.textarea.BufferHandler.preContentRemoved(JEditBuffer,int,int,int,int)	61	
+ 	723	org.gjt.sp.jedit.textarea.BufferHandler.getReadyToBreakFold(int)	10	
+ 	5304	org.gjt.sp.jedit.textarea.TextArea.joinLines()	46	
+ 	1262	org.gjt.sp.jedit.textarea.DisplayManager.expandFold(int,boolean)	1	
+2015210	189	org.gjt.sp.jedit.options.AppearanceOptionPane._init()	71	15
+ 	4688	org.gjt.sp.jedit.options.SaveBackupOptionPane._init()	15	
+2017514	3560	org.gjt.sp.jedit.textarea.MouseHandler.mouseReleased(MouseEvent)	554	554
+2060078	6045	org.gjt.sp.jedit.View.handleEditPaneUpdate(EditPaneUpdate)	456	92
+ 	6046	org.gjt.sp.jedit.View.closeDuplicateBuffers(EditPaneUpdate)	92	
+2068307	1050	org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View)	247	84
+ 	2741	org.gjt.sp.jedit.jEdit.closeBuffer(View,Buffer)	84	
+ 	623	org.gjt.sp.jedit.Buffer.getPath(Boolean)	4228	
+ 	668	org.gjt.sp.jedit.Buffer.toString()	734	
+ 	3438	org.gjt.sp.jedit.MiscUtilities.abbreviate(String)	3667	
+ 	3508	org.gjt.sp.jedit.MiscUtilities.VarCompressor.VarCompressor()	3744	
+ 	3509	org.gjt.sp.jedit.MiscUtilities.VarCompressor.compress(String)	3828	
+ 	4688	org.gjt.sp.jedit.options.SaveBackupOptionPane._init()	184	
+ 	4689	org.gjt.sp.jedit.options.SaveBackupOptionPane._save()	175	
+2069249	2324	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)	38	1
+ 	4248	org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)	1	
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	25	
+ 	4733	org.gjt.sp.jedit.search.SearchAndReplace.replace(View)	282	
+ 	4744	org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)	113	
+2077326	631	org.gjt.sp.jedit.Buffer.setDirty(boolean)	104	104
+ 	678	org.gjt.sp.jedit.Buffer.calculateHash()	334	
+ 	680	org.gjt.sp.jedit.Buffer.finishLoading()	1084	
+ 	4688	org.gjt.sp.jedit.options.SaveBackupOptionPane._init()	158	
+ 	4689	org.gjt.sp.jedit.options.SaveBackupOptionPane._save()	190	
+2089713	631	org.gjt.sp.jedit.Buffer.setDirty(boolean)	72	72
+2091052	831	org.gjt.sp.jedit.bufferset.BufferSetManager.handleMessage(EBMessage)	38	3
+ 	844	org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(BufferSet)	77	
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(View,BufferSet)		
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.BufferSetClosed(EditPane,BufferSet)		
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.init()		
+ 	845	org.gjt.sp.jedit.bufferset.BufferSetManager.BufferSetClosed.bufferAdded(Buffer,int)	84	
+ 	6030	org.gjt.sp.jedit.View.confirmToCloseDirty()	3	
+ 	6048	org.gjt.sp.jedit.View.getOpenBuffers()	64	
+ 	1050	org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View)	70	
+ 	1051	org.gjt.sp.jedit.gui.CloseDialog.CloseDialog(View,Collection<Buffer>)	311	
+ 	2820	org.gjt.sp.jedit.jEdit.closeView(View,boolean)	113	
+2122926	1700	org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.ErrorHighlight(View)	233	3
+ 	1706	org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.MyMouseAdapter.MyMouseAdapter(View)	3012	
+ 	1707	org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorHighlight.MyMouseAdapter.mouseClicked(MouseEvent)	3	
+2129419	1057	org.gjt.sp.jedit.gui.CloseDialog.ListHandler.valueChanged(ListSelectionEvent)	115	115
+2169354	4748	org.gjt.sp.jedit.search.SearchAndReplace.regexpReplace(SearchMatcher.Match,String)	523	523
+2173091	2324	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)	44	44
+ 	4248	org.gjt.sp.jedit.search.PatternSearchMatcher.nextMatch(CharSequence,boolean,boolean,boolean,boolean)	167	
+ 	4730	org.gjt.sp.jedit.search.SearchAndReplace.find(View)	717	
+ 	4733	org.gjt.sp.jedit.search.SearchAndReplace.replace(View)	974	
+ 	4744	org.gjt.sp.jedit.search.SearchAndReplace._replace(View,JEditBuffer,SearchMatcher,int,int,boolean)	327	
+2173112	2324	org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(Buffer,int,int,DefaultMutableTreeNode)	103	103
+2183929	1568	org.gjt.sp.jedit.EditPane.bufferAdded(Buffer,int)	16	4
+ 	1571	org.gjt.sp.jedit.EditPane.bufferSetSorted()	4	
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSet.BufferSet(Scope)		
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSet.finalize()		
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSet.handleMessage(PropertiesChanged)		
+ 	-1	org.gjt.sp.jedit.bufferset.BufferSet.handleMessage(EBMessage)		
+ 	805	org.gjt.sp.jedit.bufferset.BufferSet.addBufferAt(Buffer,int)	144	
+ 	826	org.gjt.sp.jedit.bufferset.BufferSetAdapter.bufferSetSorted()	77	
+ 	831	org.gjt.sp.jedit.bufferset.BufferSetManager.handleMessage(EBMessage)	36	
+2199003	1322	org.gjt.sp.jedit.gui.DockableWindowFactory.getDockableWindowPluginClass(String)	93	2
+ 	1366	org.gjt.sp.jedit.gui.DockableWindowManager.getDockableWindowPluginName(String)	10	
+ 	1455	org.gjt.sp.jedit.options.DockingOptionPane._init()	69	
+ 	1457	org.gjt.sp.jedit.options.DockingOptionPane.createDockingOptionsPanel()	289	
+ 	1462	org.gjt.sp.jedit.options.WindowTableModel.WindowTableModel()	2	
+ 	1463	org.gjt.sp.jedit.options.WindowTableModel.getDockableSets()	28	
+ 	1464	org.gjt.sp.jedit.options.WindowTableModel.showSet(String)	203	
+2218621	3436	org.gjt.sp.jedit.MiscUtilities.canonPath(String)	113	113
+ 	3440	org.gjt.sp.jedit.MiscUtilities.isAbsolutePath(String)	222	
+2220025	5012	org.gjt.sp.jedit.gui.StatusBar.propertiesChanged()	819	347
+ 	5020	org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus()	388	
+ 	5027	org.gjt.sp.jedit.options.StatusBarOptionPane._init()	347	
+ 	5028	org.gjt.sp.jedit.options.StatusBarOptionPane._save()	490	
+2220033	5011	org.gjt.sp.jedit.gui.StatusBar.StatusBar(View)	798	341
+ 	5020	org.gjt.sp.jedit.gui.StatusBar.updateCaretStatus()	341	
+ 	5025	org.gjt.sp.jedit.gui.StatusBar.MouseHandler.mouseClicked(MouseEvent)	1359	
+ 	5027	org.gjt.sp.jedit.options.StatusBarOptionPane._init()	429	
+ 	5028	org.gjt.sp.jedit.options.StatusBarOptionPane._save()	446	
+2446121	2338	org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)	409	119
+ 	2340	org.gjt.sp.jedit.search.HyperSearchResults.addNotify()	475	
+ 	2352	org.gjt.sp.jedit.search.HyperSearchResults.updateHighlightStatus()	511	
+ 	2359	org.gjt.sp.jedit.search.HyperSearchResults.ActionHandler.actionPerformed(ActionEvent)	119	
+ 	2360	org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.HighlightingTree(DefaultTreeModel)	505	
+ 	2361	org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.convertValueToText(Object,boolean,boolean,boolean,int,boolean)	334	
+ 	-1	org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.appendString2html(StringBuffer,String)		
+2555956	55	org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.AboutPanel()	18	18
+2569381	1129	org.gjt.sp.jedit.gui.CompleteWord.getVisibleBuffers()	90	43
+ 	1130	org.gjt.sp.jedit.gui.CompleteWord.getCompletions(Buffer,String,int)	43	
+ 	5418	org.gjt.sp.jedit.options.TextAreaOptionPane._init()	334	
+ 	5419	org.gjt.sp.jedit.options.TextAreaOptionPane._save()	2150	
+2596087	5154	org.gjt.sp.jedit.textarea.TextArea.scrollTo(int,int,boolean)	58	58
+ 	5324	org.gjt.sp.jedit.textarea.TextArea.recalculateVisibleLines()	105	
+2646484	3014	org.gjt.sp.jedit.textarea.JEditTextArea.smartEnd(boolean)	82	9
+ 	5246	org.gjt.sp.jedit.textarea.TextArea.home(boolean)	757	
+ 	5247	org.gjt.sp.jedit.textarea.TextArea.end(boolean)	9	
+ 	5249	org.gjt.sp.jedit.textarea.TextArea.smartEnd(boolean)	19	
+ 	5252	org.gjt.sp.jedit.textarea.TextArea.goToEndOfCode(boolean)	227	
+2668434	6027	org.gjt.sp.jedit.View.View(Buffer,ViewConfig)	228	80
+ 	6028	org.gjt.sp.jedit.View.updateFullScreenProps()	356	
+ 	6029	org.gjt.sp.jedit.View.toggleFullScreen()	80	
+ 	6038	org.gjt.sp.jedit.View.propertiesChanged()	222	
+ 	6065	org.gjt.sp.jedit.options.ViewOptionPane._init()	121	
+ 	6066	org.gjt.sp.jedit.options.ViewOptionPane._save()	158	
+2688862	2319	org.gjt.sp.jedit.search.HyperSearchOperationNode.getSearchString()	7	3
+ 	2318	org.gjt.sp.jedit.search.HyperSearchOperationNode.getSearchMatcher()	40	
+ 	2321	org.gjt.sp.jedit.search.HyperSearchRequest.run()	22	
+ 	2382	org.gjt.sp.jedit.search.HyperSearchResults.RedoSearchAction.actionPerformed(ActionEvent)	3	
+2696564	1573	org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)	8	2
+ 	1575	org.gjt.sp.jedit.EditPane.propertiesChanged()	2	
+ 	2135	org.gjt.sp.jedit.options.GutterOptionPane._init()	25	
+ 	2136	org.gjt.sp.jedit.options.GutterOptionPane._save()	4	
+ 	2139	org.gjt.sp.jedit.options.GutterOptionPane.isGutterEnabled()	63	
+ 	2082	org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)	215	
+ 	2091	org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)	603	
+ 	2098	org.gjt.sp.jedit.textarea.Gutter.setFont(Font)	1087	
+ 	2099	org.gjt.sp.jedit.textarea.Gutter.setGutterEnabled(boolean)	641	
+ 	2110	org.gjt.sp.jedit.textarea.Gutter.getPreferredSize()	650	
+ 	2125	org.gjt.sp.jedit.textarea.Gutter.setSelectionPopupHandler(GutterPopupHandler)	108	
+ 	2127	org.gjt.sp.jedit.textarea.Gutter.paintLine(Graphics2D,int,int)	1380	
+ 	2130	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mousePressed(MouseEvent)	173	
+ 	2131	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseDragged(MouseEvent)	889	
+ 	2132	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.getFoldEndOffset(int)	1966	
+ 	2133	org.gjt.sp.jedit.textarea.Gutter.MouseHandler.mouseReleased(MouseEvent)	1343	
+2744708	611	org.gjt.sp.jedit.Buffer.checkFileStatus(View)	64	64
+ 	631	org.gjt.sp.jedit.Buffer.setDirty(boolean)	116	
+2759434	4990	org.gjt.sp.util.StandardUtilities.getIndentString(String)	433	433
+2762745	3359	org.gjt.sp.jedit.pluginmgr.ManagePanel.SaveButton.saveState(String,List<Entry>)	221	221
+ 	2589	org.gjt.sp.util.IOUtilities.closeQuietly(OutputStream)	4311	
+ 	2591	org.gjt.sp.util.IOUtilities.closeQuietly(Writer)	4313	
+ 	2592	org.gjt.sp.util.IOUtilities.closeQuietly(Closeable)	4314	
+2777073	1573	org.gjt.sp.jedit.EditPane.EditPane(View,Buffer,BufferSet.Scope)	188	117
+ 	1575	org.gjt.sp.jedit.EditPane.propertiesChanged()	287	
+ 	2135	org.gjt.sp.jedit.options.GutterOptionPane._init()	266	
+ 	2136	org.gjt.sp.jedit.options.GutterOptionPane._save()	350	
+ 	2141	org.gjt.sp.jedit.options.GutterOptionPane.isSelectionAreaEnabled()	3682	
+ 	2082	org.gjt.sp.jedit.textarea.Gutter.Gutter(TextArea)	117	
+ 	2091	org.gjt.sp.jedit.textarea.Gutter.setBorder(Border)	368	
+ 	-1	org.gjt.sp.jedit.textarea.Gutter.setSelectonAreaEnabled(boolean)		
+ 	-1	org.gjt.sp.jedit.textarea.Gutter.getLineCount()		
+ 	2097	org.gjt.sp.jedit.textarea.Gutter.dispose()	370	
+ 	2098	org.gjt.sp.jedit.textarea.Gutter.setFont(Font)	290	
+ 	5116	org.gjt.sp.jedit.textarea.TextArea.dispose()	826	
+2781716	2361	org.gjt.sp.jedit.search.HyperSearchResults.HighlightingTree.convertValueToText(Object,boolean,boolean,boolean,int,boolean)	708	708
+2814857	5308	org.gjt.sp.jedit.textarea.TextArea.removeNotify()	146	146
+2823909	6028	org.gjt.sp.jedit.View.updateFullScreenProps()	52	52
+2824045	6029	org.gjt.sp.jedit.View.toggleFullScreen()	171	171
+2842444	2321	org.gjt.sp.jedit.search.HyperSearchRequest.run()	1	1
+ 	2338	org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)	24	
+ 	2347	org.gjt.sp.jedit.search.HyperSearchResults.searchStarted()	2	
+ 	2350	org.gjt.sp.jedit.search.HyperSearchResults.searchDone(DefaultMutableTreeNode,DefaultMutableTreeNode)	86	
+ 	2359	org.gjt.sp.jedit.search.HyperSearchResults.ActionHandler.actionPerformed(ActionEvent)	47	
+2844750	2446	org.gjt.sp.jedit.textarea.InputMethodSupport.paintValidLine(Graphics2D,int,int,int,int,int)	451	63
+ 	2448	org.gjt.sp.jedit.textarea.InputMethodSupport.getLocationOffset(int,int)	2005	
+ 	5475	org.gjt.sp.jedit.textarea.TextAreaPainter.PaintLineBackground.paintValidLine(Graphics2D,int,int,int,int,int)	143	
+ 	5480	org.gjt.sp.jedit.textarea.TextAreaPainter.PaintText.paintValidLine(Graphics2D,int,int,int,int,int)	63	
+2846169	1930	org.gjt.sp.jedit.buffer.FoldHandler.getPrecedingFoldLevels(JEditBuffer,int,Segment,int)	28	20
+ 	2418	org.gjt.sp.jedit.buffer.IndentFoldHandler.getLeadingWhitespaceWidth(Segment,int)	3305	
+ 	2419	org.gjt.sp.jedit.buffer.IndentFoldHandler.getFoldLevel(JEditBuffer,int,Segment)	106	
+ 	2420	org.gjt.sp.jedit.buffer.IndentFoldHandler.getPrecedingFoldLevels(JEditBuffer,int,Segment,int)	51	
+ 	2943	org.gjt.sp.jedit.buffer.JEditBuffer.getFoldLevel(int)	20	
+2882702	2058	org.gjt.sp.jedit.GUIUtilities.getScreenBounds()	1955	911
+ 	2060	org.gjt.sp.jedit.GUIUtilities.showPopupMenu(JPopupMenu,Component,int,int,boolean)	911	
+ 	6059	org.gjt.sp.jedit.View.isInsideScreen(View,Rectangle)	2409	
+2887515	52	org.gjt.sp.jedit.gui.AboutDialog.AboutDialog(View)	139	139
+ 	56	org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.handleKeyEvent(KeyEvent)	170	
+ 	57	org.gjt.sp.jedit.gui.AboutDialog.AboutPanel.drain()	485	
+2887516	2338	org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)	64	1
+ 	2367	org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.showPopupMenu(MouseEvent)	12	
+ 	2376	org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.CopyToClipboardAction()	1	
+ 	2377	org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.actionPerformed(ActionEvent)	35	
+ 	2378	org.gjt.sp.jedit.search.HyperSearchResults.ToStringNodes.processNode(DefaultMutableTreeNode)	21	
+ 	2390	org.gjt.sp.jedit.search.HyperSearchResults.ResultTreeTransferHandler.exportToClipboard(JComponent,Clipboard,int)	31	
+2896464	2338	org.gjt.sp.jedit.search.HyperSearchResults.HyperSearchResults(View)	40	21
+ 	2367	org.gjt.sp.jedit.search.HyperSearchResults.MouseHandler.showPopupMenu(MouseEvent)	43	
+ 	2376	org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.CopyToClipboardAction()	21	
+ 	2377	org.gjt.sp.jedit.search.HyperSearchResults.CopyToClipboardAction.actionPerformed(ActionEvent)	913	
+ 	2378	org.gjt.sp.jedit.search.HyperSearchResults.ToStringNodes.processNode(DefaultMutableTreeNode)	25	
+ 	2390	org.gjt.sp.jedit.search.HyperSearchResults.ResultTreeTransferHandler.exportToClipboard(JComponent,Clipboard,int)	640	
+2911122	2606	org.gjt.sp.jedit.JARClassLoader.getResource(String)	35	35
